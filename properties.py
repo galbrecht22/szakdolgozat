@@ -13,9 +13,8 @@ S_BACKGROUND = int(ADVERSARY_RATE * NUM_OF_USERS)
 SAMPLE_SET = list(np.arange(start=2, stop=6, step=1))
 
 # Source dataset
+# DB_FROM_READ = 'cabs_500.dat'
 DB_FROM_READ = 'BMS-POS-full-space_10_A.data'
-# DB_FROM_READ = 'loc_570_c1000_n530_PRD.dat'
-# DB_FROM_READ = 'kosarak_10_A.data'
 # DB_FROM_READ = 'msnbc_10_A.data'
 
 DATASET = 'dataset.dat'

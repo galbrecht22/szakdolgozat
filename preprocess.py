@@ -8,9 +8,8 @@ select_lines(file_in=DB_PATH, file_out=DATASET, db_size=NUM_OF_USERS, shuffled=T
 with open(DATASET, 'r') as f:
     dataset = f.readlines()
     lines = [line.rstrip().split() for line in dataset]
-    # print lines[len(lines)-1]
 
-if DB_FROM_READ[:3] == 'loc':
+if DB_FROM_READ[:3] == 'cab':
     offset = random.randint(0, 200 - DOC_LEN)
     print 'Offset: {}'.format(offset)
     matrix_anonymized = [[attribute for attribute in record.rstrip().split()[offset:offset+DOC_LEN]] for record in dataset]
