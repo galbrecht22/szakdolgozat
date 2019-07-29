@@ -1,6 +1,6 @@
-# szakdolgozat
-futtatás menete:
-- properties.py fájlban megadni a vizsgálandó adathalmazt (CABS/BMS/MSNBC)
-- python preprocess.py
-- python kld.py/emd.py/wmd.py
+# SZAKDOLGOZAT
+Futtatás menete:
+- properties.py fájlban kell megadni a vizsgálandó adathalmazt (CABS - lokációs/BMS - online kereskedelmi/MSNBC - webböngészési)
+- $ python preprocess.py: adathalmazban rekordok előfeldolgozása
+- $ python kld.py/emd.py/wmd.py
 - *raw fájlokban található a futtatás eredménye
