@@ -3,6 +3,7 @@ Anonim(nak vélt) adathalmazok személyes jellegének tesztelése, különböző
  - kld: KL-Divergencia
  - emd: Earth Mover's Distance
  - wmd: Word Mover's Distance
+
 Futtatás menete:
 - src/properties.py fájlban kell megadni a vizsgálandó adathalmazt (CABS - lokációs/BMS - online kereskedelmi/MSNBC - webböngészési)
 - $ python src/preprocess.py: adathalmazban rekordok előfeldolgozása
